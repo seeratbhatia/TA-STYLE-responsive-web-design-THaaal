@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alt Events - Assignment Levle 1 | Responsive Web Design</title>
+
+    <!-- Font Family -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8bc5acd820.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="stylesheet/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container flex justify-between item-center">
+        <a class="brand" href="index.html">
+          <strong>AltEvents</strong>
+        </a>
+        <label class="bars" for="toggle">
+          <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" type="checkbox" />
+        <nav class="nav">
+          <ul class="flex item-center nav-menu sm-column">
+            <li class="nav-item">
+              <a href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn" href="#">Join Us</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section class="hero center">
+        <div class="container flex item-center sm-wrap">
+          <div class="flex-50 sm-flex-100 order-1">
+            <h1 class="hero-heading">
+              Web Developer <br />
+              Conference <span class="text-accent">2020</span>
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              placeat ducimus, nisi mollitia maxime quas ut veritatis
+              accusantium itaque. Quaerat non dignissimos dolorum facilis
+              blanditiis aperiam sapiente odio expedita doloribus.
+            </p>
+            <a class="btn" href="#">Register Now</a>
+          </div>
+          <div class="flex-50 sm-flex-100 text-right">
+            <img class="sm-width-full" src="assets/hero.png" alt="Hero" />
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="padding about">
+        <div class="container flex item-center justify-between sm-wrap">
+          <div class="flex-48 sm-flex-100">
+            <img class="width-full" src="assets/about.png" alt="About" />
+          </div>
+          <div class="flex-48 sm-flex-100">
+            <h2 class="heading uppercase">About the event</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Veritatis, eligendi incidunt! Similique eaque sapiente dolores
+              sequi porro enim dolore nam quasi! Ratione harum molestias,
+              dolorem architecto adipisci consequuntur natus placeat!
+            </p>
+            <a class="btn" href="#">Know More</a>
+          </div>
+        </div>
+      </section>
+      <!-- Motive -->
+      <section class="motive padding">
+        <div class="container">
+          <h2 class="heading text-center">Why you should join?</h2>
+          <div class="flex justify-between sm-wrap">
+            <div class="flex-30 motive-item sm-flex-100">
+              <h3 class="heading-secondary">Network</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nostrum temporibus id eius, tenetur.
+              </p>
+              <div class="center pointer">
+                <span>1</span>
+              </div>
+            </div>
+            <div class="flex-30 motive-item sm-flex-100">
+              <h3 class="heading-secondary">Great Speakers</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nostrum temporibus id eius, tenetur.
+              </p>
+              <div class="center pointer">
+                <span>2</span>
+              </div>
+            </div>
+            <div class="flex-30 motive-item sm-flex-100">
+              <h3 class="heading-secondary">Information</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                nostrum temporibus id eius, tenetur.
+              </p>
+              <div class="center pointer">
+                <span>3</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Schedule -->
+      <section class="schedule padding">
+        <div class="container">
+          <h2 class="heading text-center">Schedule</h2>
+          <div class="flex justify-between item-center schedule-item sm-wrap">
+            <div class="flex-15 center sm-flex-100">
+              <div class="schedule-date active center text-center">
+                06 <br />Sept
+              </div>
+            </div>
+
+            <div class="flex-15 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/schedule-01.jpg"
+                alt="Schedul 01"
+              />
+            </div>
+            <div class="flex-60 sm-flex-100">
+              <h3 class="heading-secondary">
+                Digital World Event Conversation
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, distinctio dicta! Maxime amet aspernatur soluta cum
+                repudiandae in voluptas modi unde eius.
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between item-center schedule-item sm-wrap">
+            <div class="flex-15 center sm-flex-100">
+              <div class="schedule-date center text-center">07 <br />Sept</div>
+            </div>
+
+            <div class="flex-15 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/schedule-02.jpg"
+                alt="Schedul 02"
+              />
+            </div>
+            <div class="flex-60 sm-flex-100">
+              <h3 class="heading-secondary">Web Designing Conversation</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, distinctio dicta! Maxime amet aspernatur soluta cum
+                repudiandae in voluptas modi unde eius.
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between item-center schedule-item sm-wrap">
+            <div class="flex-15 center sm-flex-100">
+              <div class="schedule-date center text-center">08 <br />Sept</div>
+            </div>
+
+            <div class="flex-15 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/schedule-03.jpg"
+                alt="Schedul 03"
+              />
+            </div>
+            <div class="flex-60 sm-flex-100">
+              <h3 class="heading-secondary">Web Development Conversation</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, distinctio dicta! Maxime amet aspernatur soluta cum
+                repudiandae in voluptas modi unde eius.
+              </p>
+            </div>
+          </div>
+          <div
+            class="flex justify-between item-center schedule-item last-item sm-wrap"
+          >
+            <div class="flex-15 center sm-flex-100">
+              <div class="schedule-date center text-center">09 <br />Sept</div>
+            </div>
+
+            <div class="flex-15 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/schedule-04.jpg"
+                alt="Schedul 04"
+              />
+            </div>
+            <div class="flex-60 sm-flex-100">
+              <h3 class="heading-secondary">Digital Marketing Conference</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus, distinctio dicta! Maxime amet aspernatur soluta cum
+                repudiandae in voluptas modi unde eius.
+              </p>
+            </div>
+          </div>
+          <div class="text-center">
+            <a class="btn" href="#">Download Schedule</a>
+          </div>
+        </div>
+      </section>
+      <!-- Event Info -->
+      <section class="padding event-info">
+        <div class="container flex justify-between sm-wrap">
+          <div
+            class="flex-25 text-center event-info-item sm-flex-100 sm-flex justify-between item-center"
+          >
+            <img src="assets/speaker.png" alt="Speaker" />
+            <h3 class="heading-secondary">20+</h3>
+            <h4>Great Speakers</h4>
+          </div>
+          <div
+            class="flex-25 text-center event-info-item active sm-flex-100 sm-flex justify-between item-center"
+          >
+            <img src="assets/idea.png" alt="Idea" />
+            <h3 class="heading-secondary">50+</h3>
+            <h4>Total Topic</h4>
+          </div>
+          <div
+            class="flex-25 text-center event-info-item sm-flex-100 sm-flex justify-between item-center"
+          >
+            <img src="assets/participants.png" alt="Participants" />
+            <h3 class="heading-secondary">300+</h3>
+            <h4>Participants</h4>
+          </div>
+          <div
+            class="flex-25 text-center event-info-item sm-flex-100 sm-flex justify-between item-center"
+          >
+            <img src="assets/sponsor.png" alt="Sponsors" />
+            <h3 class="heading-secondary">20+</h3>
+            <h4>Sponsors</h4>
+          </div>
+        </div>
+      </section>
+      <!-- Cover Video -->
+      <section class="padding event-cover">
+        <div class="container">
+          <figure class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mIxlvVlOIS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </figure>
+        </div>
+      </section>
+      <!-- News -->
+      <section class="padding news">
+        <div class="container">
+          <h2 class="heading text-center">Our Latest News</h2>
+          <div class="flex justify-between sm-wrap">
+            <article class="flex-30 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/news-01.png"
+                alt="News 01"
+              />
+              <h3>How to build a great portfolio as a beginner developer?</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                sed cum sapiente dolores neque asperiores, dolorem rem fugiat
+                ipsam.
+              </p>
+              <a class="read-more" href="#">Read More</a>
+            </article>
+            <article class="flex-30 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/news-02.png"
+                alt="News 02"
+              />
+              <h3>
+                Four common siturations while using git and how to solve them
+              </h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                sed cum sapiente dolores neque asperiores, dolorem rem fugiat
+                ipsam.
+              </p>
+              <a class="read-more active" href="#">Read More</a>
+            </article>
+            <article class="flex-30 sm-flex-100">
+              <img
+                class="width-full"
+                src="assets/news-03.png"
+                alt="News 03"
+              />
+              <h3>Basics unix command that you should know</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                sed cum sapiente dolores neque asperiores, dolorem rem fugiat
+                ipsam.
+              </p>
+              <a class="read-more" href="#">Read More</a>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="padding bg-light">
+        <div class="container flex justify-between item-center sm-wrap">
+          <div class="flex-20 sm-flex-100 sm-text-center">
+            <img src="assets/footer-logo.png" alt="" />
+          </div>
+          <div class="flex-40 sm-flex-100 sm-text-center">
+            <h4>Quick Links</h4>
+            <nav>
+              <ul class="flex sm-justify-center">
+                <li>
+                  <a href="#">Program</a>
+                </li>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#">Services</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="flex-30 sm-flex-100 sm-text-center">
+            <h4>Follow Us</h4>
+            <a href="#">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="#">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="bg-dark">
+        <div class="container text-center">
+          <small>&copy; AltCampus Service Pvt. Ltd, 2018-present</small>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
